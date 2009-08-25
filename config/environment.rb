@@ -21,8 +21,9 @@ Rails::Initializer.run do |config|
     
   config.gem "bluecloth"
 
-  config.gem 'RedCloth', :lib => "redcloth",
-    :source => "http://code.whytheluckystiff.net"
+  config.gem 'RedCloth', :lib => "redcloth"
+# commented out in hopes that _why returns
+#    :source => "http://code.whytheluckystiff.net"
 
   # Skip frameworks you're not going to use (only works if using vendor/rails).
   # To use Rails without a database, you must remove the Active Record framework
