@@ -19,7 +19,7 @@ Rails::Initializer.run do |config|
   config.gem 'mislav-will_paginate', :lib => "will_paginate", 
     :source => "http://gems.github.com"
     
-  config.gem "bluecloth"
+#  config.gem "bluecloth"
 
   config.gem 'RedCloth', :lib => "redcloth"
 # commented out in hopes that _why returns
